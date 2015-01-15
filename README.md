@@ -21,7 +21,7 @@ var slackbot = require('./lib/bot');
 
 var config = {
     bot_name: "WebexBot",//Provide the name to post under.  Default is WebexBo
-    token: 'XXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX',
+    token: 'XXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX',//Get from https://api.slack.com/web#basics
     webex_urls: {
       "launch": "https://mypath.webex.com/meet/",//REPLACE THESE W/ YOUR COMPANY URLs
       "join": "https://mypath.webex.com/join/",
