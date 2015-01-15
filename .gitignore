@@ -2,6 +2,10 @@
 logs
 *.log
 
+*.iml
+.idea
+config-webex.js
+
 # Runtime data
 pids
 *.pid
